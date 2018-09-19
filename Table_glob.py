@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 #This is a simple script utility to bind all the csv tables in a directory into a single file
-#usage is [script] output_file.csv
+#usage is ./Table_glob output_file_name.csv
 
 import glob  #glob is the best when it comes to grabbing lots of files
 import pandas as pd
